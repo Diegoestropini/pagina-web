@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+  <!-- Metadatos básicos -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Mi Sitio Profesional</title>
+  <meta name="description" content="Breve descripción de tu sitio web para buscadores.">
+  <meta name="keywords" content="palabra1, palabra2, palabra3">
+  <meta name="author" content="Tu Nombre o Empresa">
+
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:title" content="Mi Sitio Profesional">
+  <meta property="og:description" content="Descripción para compartir en redes sociales.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tusitio.com/">
+  <meta property="og:image" content="https://tusitio.com/og-image.jpg">
+
+  <!-- Ícono de la pestaña -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="css/normalize.css">  <!-- Reset/CSS base -->
+  <link rel="stylesheet" href="css/styles.css">     <!-- Tus estilos -->
+
+  <!-- Prefetch/RSC para rendimiento -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preload" href="fonts/mi-font.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+  <!-- Enlace de accesibilidad: saltar al contenido -->
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <!-- Cabecera -->
+  <header role="banner">
+    <div class="container">
+      <a href="/" class="logo">MiLogo</a>
+      <nav role="navigation" aria-label="Menú principal">
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/servicios">Servicios</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main id="main-content" role="main" class="container">
+    <section>
+      <h1>Bienvenido a Mi Sitio Profesional</h1>
+      <p>Descripción inicial o llamada a la acción.</p>
+    </section>
+    <!-- Otras secciones aquí -->
+  </main>
+
+  <!-- Pie de página -->
+  <footer role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
+      <nav aria-label="Redes sociales">
+        <ul class="social-links">
+          <li><a href="https://twitter.com/tuusuario" target="_blank" rel="noopener">Twitter</a></li>
+          <li><a href="https://facebook.com/tuusuario" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Scripts al final para mejor carga -->
+  <script src="js/vendor/jquery.min.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
+
+<link rel="stylesheet" href="css/styles.css">
